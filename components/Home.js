@@ -38,7 +38,7 @@ function Home() {
 
 
   useEffect(() => {
-    fetch('https://mymoviz-backend-liard.vercel.app/')
+    fetch('https://mymoviz-backend-liard.vercel.app/movies')
       .then(response => response.json())
       .then(data => {
         console.log(data.key)
